@@ -1,0 +1,31 @@
+{
+  "name": "pixi-scale-manager",
+  "version": "1.0.0",
+  "description": "A lightweight scaling manager for PixiJS",
+  "main": "src/PixiScaleManager.js",
+  "scripts": {
+      "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micheg/pixi-scale-manager.git"
+  },
+  "keywords": [
+    "pixijs",
+    "scale",
+    "resize",
+    "canvas",
+    "game",
+    "library"
+  ],
+  "author": "Michelangelo Giacomelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micheg/pixi-scale-manager/issues"
+  },
+  "homepage": "https://github.com/micheg/pixi-scale-manager#readme",
+  "devDependencies": {
+    "rollup": "^2.79.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
